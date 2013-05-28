@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+  "name": "Opened Bug Counts for Oracle Bug DB",
+  "description": "Opened Bug Counts for Oracle Bug DB",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "bugDB_logged_in.png"
+    //"default_popup": "popup.html"
+  },
+  "permissions": [
+   "alarms", "tabs", "webNavigation","*://bug.oraclecorp.com/"
+  ]
+}
